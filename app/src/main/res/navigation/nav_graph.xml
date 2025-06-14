@@ -1,0 +1,10 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/eventosFragment">
+
+    <fragment android:id="@+id/eventosFragment" android:name="com.example.ingeweek.ui.EventosFragment" android:label="Eventos" />
+    <fragment android:id="@+id/competenciasFragment" android:name="com.example.ingeweek.ui.CompetenciasFragment" android:label="Competencias" />
+    <fragment android:id="@+id/seminariosFragment" android:name="com.example.ingeweek.ui.SeminariosFragment" android:label="Seminarios" />
+    <fragment android:id="@+id/ubicacionesFragment" android:name="com.example.ingeweek.ui.UbicacionesFragment" android:label="Ubicaciones" />
+</navigation>
